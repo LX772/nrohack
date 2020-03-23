@@ -4,5 +4,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	}
 fi
 python $HOME/nrohack/nrohack
+echo " Program Exiting... Restart"
+sleep 5
 exit
 PS1='\$ '
